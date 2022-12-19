@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cy:spec1": "cypress run --spec 'cypress/e2e/bookingTicket.cy.js' --record --key d6279504-16c7-495b-b4d7-46f77ee15bd0",
+    "cy:spec2": "cypress run --spec 'cypress/e2e/login.cy.js' --record --key d6279504-16c7-495b-b4d7-46f77ee15bd0",
+    "cy:parallel": "npm run cy:spec1 -- --browser chrome --group Spec1 --ci-build-id 9 & npm run cy:spec2 -- --browser chrome --group Spec2 --ci-build-id 9",
+    "test:cypress": "npx cypress run --record --key d6279504-16c7-495b-b4d7-46f77ee15bd0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
