@@ -1,0 +1,12 @@
+{
+    "title": ".page-header__title",
+    "dayOfWeek": ".page-nav__day",
+    "email": "[name='email']",
+    "password": "[name='password']",
+    "buttonLoginIn": "[class='login__button']",
+    "chooseFilm": ".movie",
+    "openingСinemaРall": "#start-sales",
+    "chooseTimeSession": "a.page-nav__day:nth-of-type(3)",
+    "chooseChair": ".buying-scheme__wrapper > :nth-child(5) > :nth-child(5)",
+    "pushButton": ".acceptin-button"
+  }
