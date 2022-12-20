@@ -1,4 +1,4 @@
-const selector = require("../fixtures/selector.json");
+const selector = require("../../fixtures/selector.json");
 
 describe("Should display the client's page correctly", () => {
 

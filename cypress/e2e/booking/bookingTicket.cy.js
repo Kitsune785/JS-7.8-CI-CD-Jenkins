@@ -1,6 +1,6 @@
-const selector = require("../fixtures/selector.json");
-const user = require("../fixtures/user.json");
-const sessions = require("../fixtures/sessions.json");
+const selector = require("../../fixtures/selector.json");
+const user = require("../../fixtures/user.json");
+const sessions = require("../../fixtures/sessions.json");
 
 it("Should find a hall with ticket sales", () => {
     cy.visit("http://qamid.tmweb.ru/admin");
